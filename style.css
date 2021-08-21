@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    height: 100vh;
+}
+
+.container {
+    width: 850px;
+    height: 350px;
+    background-color: hsl(244, 38%, 16%);
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    height: 100%;
+    width: 48%;
+    padding: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(244, 38%, 16%)
+}
+
+.img-card {
+    height: 100%;
+}
+
+.stats {
+    color: hsla(0, 0%, 100%, 0.6);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-flow: column nowrap;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+.stats span {
+    font-size: .7rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: normal;
+}
+
+.violet {
+    color: hsl(277, 64%, 61%)
+}
+
+.card-img {
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+}
+
+.card-img::after {
+    content: 's';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: hsl(277, 64%, 61%);
+    z-index: 1;
+}
+
+.card h2 {
+    color: hsl(0, 0%, 100%)
+}
+
+.main-para {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: .7rem;
+}
