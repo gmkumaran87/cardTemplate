@@ -68,12 +68,15 @@ body {
 }
 
 .img-card {
-    position: relative;
-    height: 100%;
-    background-image: url('images/image-header-desktop.jpg');
+    height: 300px;
+    background: url('https://photographycourse.net/wp-content/uploads/2014/11/Landscape-Photography-steps.jpg');
     background-size: cover;
+    background-position: center;
+    background-blend-mode: luminosity;
 }
 
+
+/*
 .img-card::after {
     content: '';
     position: absolute;
@@ -83,7 +86,7 @@ body {
     right: 0;
     bottom: 0;
     opacity: 0.6;
-}
+}*/
 
 .card-img {
     height: 100%;
