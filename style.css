@@ -68,8 +68,9 @@ body {
 }
 
 .img-card {
-    height: 300px;
-    background: url('https://photographycourse.net/wp-content/uploads/2014/11/Landscape-Photography-steps.jpg');
+    height: 100%;
+    width: 100%;
+    background: url('images/image-header-desktop.jpg'), orchid;
     background-size: cover;
     background-position: center;
     background-blend-mode: luminosity;
